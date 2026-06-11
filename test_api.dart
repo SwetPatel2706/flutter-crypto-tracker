@@ -1,0 +1,1 @@
+import 'dart:convert'; import 'package:http/http.dart' as http; void main() async { final response = await http.get(Uri.parse('https://min-api.cryptocompare.com/data/v2/news/?lang=EN')); print(response.statusCode); }

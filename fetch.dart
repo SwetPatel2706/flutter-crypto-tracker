@@ -1,0 +1,1 @@
+import 'dart:convert'; import 'dart:io'; void main() async { final client = HttpClient(); final request = await client.getUrl(Uri.parse('https://api.rss2json.com/v1/api.json?rss_url=https://cointelegraph.com/rss')); final response = await request.close(); final body = await response.transform(utf8.decoder).join(); File('response.json').writeAsStringSync(body); client.close(); }

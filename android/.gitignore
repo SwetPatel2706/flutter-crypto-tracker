@@ -1,0 +1,102 @@
+gradle-wrapper.jar
+/.gradle
+/captures/
+/gradlew
+/gradlew.bat
+/local.properties
+GeneratedPluginRegistrant.java
+.cxx/
+
+# Remember to never publicly share your keystore.
+# See https://flutter.dev/to/reference-keystore
+key.properties
+**/*.keystore
+**/*.jks
+
+
+# =========================
+# Flutter / Dart
+# =========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+build/
+
+# =========================
+# IDEs
+# =========================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# Android
+# =========================
+android/.gradle/
+android/local.properties
+android/key.properties
+.cxx/
+
+# Never commit signing keys
+**/*.keystore
+**/*.jks
+
+# =========================
+# iOS
+# =========================
+ios/Flutter/ephemeral/
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/Generated.xcconfig
+ios/Flutter/.last_build_id
+ios/Pods/
+
+# =========================
+# macOS Desktop
+# =========================
+macos/Flutter/ephemeral/
+
+# =========================
+# Windows
+# =========================
+windows/flutter/ephemeral/
+
+# =========================
+# Linux
+# =========================
+linux/flutter/ephemeral/
+
+# =========================
+# Coverage & Logs
+# =========================
+coverage/
+*.log
+
+# =========================
+# Environment Files
+# =========================
+.env
+.env.*
+
+# =========================
+# Local Testing Files
+# =========================
+response.json
+
+
+.DS_Store
+**/.DS_Store
+
+/build/
+/build
+build/
+
